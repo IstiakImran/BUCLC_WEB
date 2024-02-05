@@ -1,0 +1,99 @@
+/* ClubRegistrationForm.css */
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .registration-form-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    transition: background 0.5s ease-in-out;
+  }
+  
+  .registration-form {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .registration-form h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .registration-form label {
+    display: block;
+    margin: 15px 0;
+    text-align: left;
+    color: #555;
+  }
+  
+  .registration-form input,
+  .registration-form select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .registration-form input:focus,
+  .registration-form select:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .registration-form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .registration-form button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .error {
+    color: #dc3545;
+    font-size: 14px;
+    text-align: left;
+    margin-top: 5px;
+  }
+  
+  /* Additional styles for a more refined look */
+  .registration-form-img:before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+    z-index: -1;
+  }
+  
+  .registration-form-img hr {
+    border: 1px solid #ccc;
+    margin: 20px 0;
+  }
+  
+  .registration-form select {
+    appearance: none;
+    background: url('path/to/your/arrow-icon.png') no-repeat right center / 20px;
+  }
+  
