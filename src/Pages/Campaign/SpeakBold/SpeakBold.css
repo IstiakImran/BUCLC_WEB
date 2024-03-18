@@ -1,0 +1,108 @@
+.speak-bold-container{
+    background-image: url(../../../assets/SpeakBold/SpeakBoldBG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+    padding: 20px;
+    color: white;
+}
+.speak-bold{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #01142D;
+}
+.speak-bold-text h1{
+    font-size: 90px;
+    margin: 10px;
+}
+.speak-bold-text p{
+    font-size: 40px;
+    margin: 10px;
+}
+.speak-bold-img{
+    width: 600px;
+}
+
+.speak-bold-about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+.speak-bold-about-img img {
+    width: 400px;
+}
+.speak-bold-about-text{
+    width: 600px;
+}
+.speak-bold-about-text h1{
+    font-size: 60px;
+    margin: 10px;
+}
+.speak-bold-about-text p{
+    font-size: 22px;
+    margin: 10px;
+}
+.speak-bold-about-location{
+    background-color: #f01060;
+    padding: 10px;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+.speak-bold-schedule{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.speak-bold-schedule-title {
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.speak-bold-schedule-container h1{
+
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.speak-bold-schedule-item{
+    width: 600px;
+    border: 1px solid #f01060;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 600px;
+    margin: auto;
+}
+
+.footer-title {
+    margin-bottom: 15px;
+}
+
+.footer-description {
+    margin-bottom: 20px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-link img {
+    width: 42px;
+    height: auto;
+}

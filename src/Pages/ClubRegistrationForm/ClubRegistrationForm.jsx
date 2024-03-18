@@ -93,7 +93,7 @@ const ClubRegistrationForm = () => {
   return (
     <div className={`registration-form-img ${department}`} style={{ backgroundImage: `url(${getBackgroundImage()})` }}>
          <div className={`registration-form ${department}`}>
-      <h2>BRAC University Language and Communication Club Registration</h2>
+      <h2>BRAC University Communication and Language Club Registration</h2>
       <form onSubmit={handleSubmit}>
         <label>
           Name:
