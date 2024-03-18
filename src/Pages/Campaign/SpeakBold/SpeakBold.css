@@ -3,7 +3,7 @@
     background-size: cover;
     background-repeat: no-repeat;
   background-attachment: fixed;
-    padding: 20px;
+    /* padding: 20px; */
     color: white;
 }
 .speak-bold{
@@ -16,12 +16,17 @@
     font-size: 90px;
     margin: 10px;
 }
+.speak-bold-text img {
+    width: 300px;
+}
 .speak-bold-text p{
     font-size: 40px;
     margin: 10px;
 }
 .speak-bold-img{
     width: 600px;
+    border: 10px #238AA2 solid;
+        border-radius: 120px;
 }
 
 .speak-bold-about{
@@ -35,6 +40,8 @@
 }
 .speak-bold-about-text{
     width: 600px;
+    text-align: center;
+    
 }
 .speak-bold-about-text h1{
     font-size: 60px;
@@ -42,24 +49,25 @@
 }
 .speak-bold-about-text p{
     font-size: 22px;
-    margin: 10px;
+    text-align: justify;
 }
 .speak-bold-about-location{
-    background-color: #f01060;
+    background-color: #238AA2;
     padding: 10px;
     border-radius: 10px;
     width: fit-content;
 }
 
-.speak-bold-schedule{
+.speak-bold-schedule {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 50px;
+    margin: 10px;
+    margin-top: 20px;
 }
 .speak-bold-schedule-title {
-    font-size: 60px;
-    margin-bottom: 10px;
+    font-size: 50px;
+    margin-bottom: 20px;
 }
 
 .speak-bold-schedule-container h1{
@@ -67,9 +75,14 @@
     font-size: 40px;
     margin-bottom: 10px;
 }
+
+.speak-bold-schedule-container p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
 .speak-bold-schedule-item{
-    width: 600px;
-    border: 1px solid #f01060;
+    width: -webkit-fill-available;
+    border: 1px solid #238AA2;
     border-radius: 10px;
     padding: 20px;
     margin-bottom: 20px;
@@ -105,4 +118,33 @@
 .social-link img {
     width: 42px;
     height: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .speak-bold {
+        flex-direction: column;
+    }
+    .speak-bold-text {
+        text-align: center;
+    }
+    .speak-bold-img {
+        width: 350px;
+        margin-top: 0px;
+        border: 10px #238AA2 solid;
+        border-radius: 120px;
+    
+    }
+    .speak-bold-about-img img{
+        width: 150px;
+    }
+    .speak-bold-about-text{
+        width: 350px;
+    }
+    .speak-bold-about {
+        flex-direction: column;
+    }
+    .speak-bold-schedule-item {
+
+    }
+    
 }
