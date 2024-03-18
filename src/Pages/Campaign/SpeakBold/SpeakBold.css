@@ -5,6 +5,7 @@
   background-attachment: fixed;
     /* padding: 20px; */
     color: white;
+    font-family: "Encode Sans Semi Condensed", sans-serif;
 }
 .speak-bold{
     display: flex;
@@ -48,8 +49,11 @@
     margin: 10px;
 }
 .speak-bold-about-text p{
-    font-size: 22px;
+    font-size: 19.6px;
     text-align: justify;
+    margin: 10px;
+    line-height: 30px;
+
 }
 .speak-bold-about-location{
     background-color: #238AA2;

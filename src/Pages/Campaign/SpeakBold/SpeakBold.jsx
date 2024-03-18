@@ -29,7 +29,7 @@ const SpeakBold = () => {
             confidently engage with diverse audiences. Led by seasoned speakers
             Hafizur Rahman and Sadman Sadik, attendees will learn practical tips
             for networking, relationship building, and mastering the art of
-            public speaking. Join us on 25th March, 2024 for an enriching
+            public speaking. Join us on <span style={{ fontWeight: "bolder", color: "#f01060" }}>25th March, 2024</span> for an enriching
             experience
           </p>
           <div className="speak-bold-about-location">
