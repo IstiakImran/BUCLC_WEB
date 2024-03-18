@@ -68,6 +68,8 @@
 .speak-bold-schedule-title {
     font-size: 50px;
     margin-bottom: 20px;
+    text-align: center;
+
 }
 
 .speak-bold-schedule-container h1{
@@ -126,6 +128,10 @@
     }
     .speak-bold-text {
         text-align: center;
+    }
+    .speak-bold-text img {
+        margin-top: 30px;
+
     }
     .speak-bold-img {
         width: 350px;

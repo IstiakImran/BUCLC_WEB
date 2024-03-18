@@ -22,25 +22,15 @@ const SpeakBold = () => {
         <div className="speak-bold-about-text">
           <h1>About the Workshop</h1>
           <p>
-            "Communication – the human connection – is the key to personal and
-            career success." ~ Paul J. Meyer With this being said, here comes
-            the most intriguing question: What makes you quiet all of a sudden
-            when you desperately want to say something? Why does your heart skip
-            a bit when you almost begin to say the very first word of your
-            speech or a random presentation in front of an audience?
-            Nervousness, shyness, rapid sweating, abrupt mind blankness & so
-            many other attacks strike you both mentally and physically, isn’t
-            it? Hence, to help you fight against these ambushes, BUCLC will be
-            organizing an electrifying workshop “Speak Bold” to electrify you &
-            boost you up mentally as an effective speaker as well as a better
-            communicator with people from all walks of life. So what are you
-            waiting for? Join us for an engaging and informative event, "Speak
-            Bold," on 25th March, 2024 Together, let's explore the keys to
-            effective communication and overcoming the fear of public speaking.
-            Whether you're a seasoned professional or a newcomer to public
-            speaking, this event offers valuable insights and practical tips to
-            enhance your communication skills and boost your confidence.
-            Essential details are given down below 👇🏼
+            "<span style={{ fontWeight: "bold" }}>Speak Bold</span>" workshop aims to empower individuals to conquer their
+            fear of public speaking and enhance their communication skills. By
+            delving into effective communication techniques and strategies for
+            overcoming nervousness, participants will gain valuable insights to
+            confidently engage with diverse audiences. Led by seasoned speakers
+            Hafizur Rahman and Sadman Sadik, attendees will learn practical tips
+            for networking, relationship building, and mastering the art of
+            public speaking. Join us on 25th March, 2024 for an enriching
+            experience
           </p>
           <div className="speak-bold-about-location">
             <p>
@@ -66,12 +56,8 @@ const SpeakBold = () => {
             </p>
           </div>
           <div className="speak-bold-schedule-item">
-            <h1>
-              Break
-            </h1>
-            <p>
-            Refreshments and networking opportunity (1:00 PM - 1:10 PM)
-            </p>
+            <h1>Break</h1>
+            <p>Networking opportunity (1:00 PM - 1:10 PM)</p>
           </div>
           <div className="speak-bold-schedule-item">
             <h1> Second Part</h1>
