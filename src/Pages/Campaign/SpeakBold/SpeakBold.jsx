@@ -34,7 +34,7 @@ const SpeakBold = () => {
           </p>
           <div className="speak-bold-about-location">
             <p>
-              <span>Location:</span> To Be Announced
+              <span>Location:</span> 9G-31T(Theater Room)
             </p>
           </div>
         </div>
