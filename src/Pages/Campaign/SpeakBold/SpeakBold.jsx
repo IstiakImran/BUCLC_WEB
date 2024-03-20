@@ -30,9 +30,14 @@ const SpeakBold = () => {
             Hafizur Rahman and Sadman Sadik, attendees will learn practical tips
             for networking, relationship building, and mastering the art of
             public speaking. Join us on <span style={{ fontWeight: "bolder", color: "#f01060" }}>25th March, 2024</span> for an enriching
-            experience
+            experience.
+            <br />
+            <br />
+            <span style={{ fontWeight: "bolder",fontSize: "22px", color: "#f01060" }}>Limited spots available! Secure yours today and receive a prestigious certificate</span>
           </p>
+          
           <div className="speak-bold-about-location">
+          <button className="speak-bold-btn"><a href="https://forms.gle/p9X7eZLLe8DZibhbA" target="_blank" rel="noopener noreferrer">Register Now</a></button>
             <p>
               <span>Location:</span> 9G-31T(Theater Room)
             </p>
